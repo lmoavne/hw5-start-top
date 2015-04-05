@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+   -moz-user-select: none; /*火狐*/
+   -webkit-user-select: none;  /*webkit浏览器*/
+   -ms-user-select: none;   /*IE10*/
+   -khtml-user-select: none; /*早期浏览器*/
+   user-select: none;
+   font-family: "Microsoft YaHei";
+}
+.apb {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: 200px;
+	background: url('images/atplus_white.png') no-repeat center;
+	background-color: gray;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#button:hover .apb {
+	width: 80px;
+	height: 80px;
+	bottom: 180px;
+	background: url("images/atplus_green.png") no-repeat center;
+	background-color: #303f9f;
+	margin-left: -20px;
+}
+
+
+#control-ring-container {
+	position: absolute;
+	width: 35px;
+	height:35px;
+	border-radius: 50%;
+	left: 50%;
+	bottom: 200px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+span {
+	width: 0;
+	height: 0;
+}
+
+li {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	left: 18px;
+	top: 15px;
+	font-size: 0em;
+	text-align: center;
+	list-style-type: none;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#button:hover #control-ring-container {
+	width: 150px;
+	height: 160px;
+	bottom: 100px;
+	border-radius: 50%;
+	left: 50%;
+	margin-left: -90px;
+	margin-bottom: 30px;
+}
+
+#button:hover li {
+	font-size: 1.8em;
+	font-weight: bold;
+	background-color: #303f9f;
+	color: #079E6E;
+}
+#button:hover .A_class {
+	position: absolute;
+	left: 35px;
+	top: 0px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+#button:hover .B_class {
+	position: absolute;
+	left: 18px;
+	top: 40px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+#button:hover .C_class {
+	position: absolute;
+	left: 25px;
+	top: 83px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+#button:hover .D_class {
+	position: absolute;
+	left: 55px;
+	top: 115px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+#button:hover .E_class {
+	position: absolute;
+	left: 100px;
+	top: 120px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+.info {
+	position: absolute;
+	width: 35px;
+	height:35px;
+	border-radius: 50%;
+	left: 50%;
+	bottom: 200px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#button:hover .info {
+	width: 150px;
+	height: 150px;
+	bottom: 270px;
+	left: 50%;
+	margin-left: -45px;
+	background-color: gray;
+	opacity: 1;
+}
+
+
+

@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+   -moz-user-select: none; /*火狐*/
+   -webkit-user-select: none;  /*webkit浏览器*/
+   -ms-user-select: none;   /*IE10*/
+   -khtml-user-select: none; /*早期浏览器*/
+   user-select: none;
+   font-family: "Microsoft YaHei";
+}
+
+.result {
+	width: 10px !important;
+	height: 10px !important;
+}
+.apb {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: 200px;
+	background: url('images/atplus_white.png') no-repeat center;
+	background-color: gray;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#button:hover .apb {
+	width: 80px;
+	height: 80px;
+	bottom: 180px;
+	background: url("images/atplus_green.png") no-repeat center;
+	background-color: #303f9f;
+	margin-left: -20px;
+}
+
+#control-ring-container {
+	position: absolute;
+	width: 35px;
+	height:35px;
+	border-radius: 50%;
+	left: 50%;
+	bottom: 200px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.unread {
+	width: 0;
+	height: 0;
+}
+
+.info li {
+	list-style-type: none;
+}
+
+.button {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	left: 18px;
+	top: 15px;
+	font-size: 0em;
+	text-align: center;
+	list-style-type: none;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#button:hover #control-ring-container {
+	width: 150px;
+	height: 160px;
+	bottom: 100px;
+	border-radius: 50%;
+	left: 50%;
+	margin-left: -90px;
+	margin-bottom: 30px;
+}
+
+#button:hover .button {
+	font-size: 1.8em;
+	font-weight: bold;
+	background-color: #303f9f;
+	color: #079E6E;
+}
+#button:hover .A_class {
+	position: absolute;
+	left: 35px;
+	top: 0px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+#button:hover .B_class {
+	position: absolute;
+	left: 18px;
+	top: 40px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+#button:hover .C_class {
+	position: absolute;
+	left: 25px;
+	top: 83px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+#button:hover .D_class {
+	position: absolute;
+	left: 60px;
+	top: 115px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+#button:hover .E_class {
+	position: absolute;
+	left: 110px;
+	top: 120px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	opacity: 1;
+}
+#button:hover .result {
+	position: absolute;
+	color: #079E6E;
+	font-size: 3em;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 30px
+}
+
+.info {
+	position: absolute;
+	width: 35px;
+	height:35px;
+	border-radius: 50%;
+	left: 50%;
+	bottom: 200px;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#button:hover .info {
+	width: 150px;
+	height: 150px;
+	bottom: 270px;
+	left: 50%;
+	margin-left: -45px;
+	background-color: gray;
+	opacity: 1;
+}
+
+
+.waiting {
+	background-color: gray !important;
+}
+
+.disable {
+	background-color: gray !important;
+}
+.done {
+	background-color: gray !important;
+}
+
+.unread {
+	width: 0 !important;
+	height: 0 !important;
+}
+
+.red-circle {
+	opacity: 1;
+	position: absolute;
+	width: 25px !important;
+	height: 25px !important;
+	border-radius: 50%;
+	font-size: 0.6em;
+	background-color: red;
+	color: white;
+}
+
+.cancle-circle {
+	width: 0 !important;
+	height: 0 !important;
+}
+
+.fuck_reu {
+	border: 1px solid black;
+}
