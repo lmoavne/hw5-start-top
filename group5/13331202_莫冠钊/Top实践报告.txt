@@ -1,7 +1,7 @@
-13331202 莫冠钊
+﻿13331202 莫冠钊
 Top实践报告：
 	首先这次的作业我是用CoffeeScript来完成的。
-	比起LiveScript，CoffeeScript的代码风格更接近于Python的风格，而且CoffeeScript对括号的规范十分严格，而且CoffeeScript调用函数时还是使用函数对象加'()'来完成，不像LiveScript一样直接用'!'。还有一点是CoffeeScript不允许随便使用'-'来命名，而恰恰LiveScript支持这命名规范。
+	比起LiveScript，CoffeeScript的代码风格更接近于Python的风格，CoffeeScript对括号的规范十分严格，而且CoffeeScript调用函数时还是使用函数对象加'()'来完成，不像LiveScript那样直接用'!'。还有一点是CoffeeScript不允许随便使用'-'来命名，而恰恰LiveScript支持这命名规范。
 	本次作业也采用了类来编写代码，并且对类里面的实例成员方法与成员变量还有静态方法与静态变量有了更加深入的了解，能够充分运用在代码的实现中。
 	本次在coding期间发生了很多丢失this的bug，后来通过声明另外一个对象并用this赋值于它来解决这个问题。
 	
