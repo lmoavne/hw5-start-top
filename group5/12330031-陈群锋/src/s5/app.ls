@@ -87,6 +87,7 @@ add-click-to-big-bubble = ->
       big-bubble.find '.amount' .html(result)
       big-bubble.remove-class 'enabled'
       big-bubble.add-class 'disabled'
+      console.log '楼主异步调用战斗力感人，目测不超过' + result
 
 reset = ~>
 
